@@ -1,0 +1,26 @@
+{ 
+  "codigo":1,
+  "descricao": "Salário mensal",
+  "dataVencimento": "2020-09-27",
+  "dataPagamento": null,
+  "valor": "6500",
+  "observacao": "Dist. De Lucros",
+  "tipoLancamento": "RECEITA",
+  "categoria" : {
+    "codigo":1,
+    "nome": "Lazer"
+  },
+  "pessoa": {
+    "codigo":1,
+    "nome": "João Silva",
+    "endereco": {
+      "logradouro":"Rua do abacaxi",
+      "numero": "10",
+      "bairro": "Maria joaquina",
+      "cep": "025.321-03",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    "ativo": true
+  }
+}

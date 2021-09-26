@@ -1,0 +1,12 @@
+{
+    "nome":"James Blunt",
+    "endereco" : {
+        "logradouro": "Rua Do Melão",
+        "numero": "35",
+        "bairro": "Maria joaquina",
+        "cep": "025.321-03",
+        "cidade": "São Paulo",
+        "estado": "SP"
+    },
+    "ativo": "true"
+}
