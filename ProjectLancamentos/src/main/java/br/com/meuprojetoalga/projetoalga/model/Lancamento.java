@@ -36,11 +36,11 @@ public class Lancamento {
     private TipoLancamento tipoLancamento;
 
     @NotNull
-    @ManyToOne(fetch =FetchType.LAZY)
+    @ManyToOne
     private Categoria categoria;
 
     @NotNull
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne
     private Pessoa pessoa;
 
 
