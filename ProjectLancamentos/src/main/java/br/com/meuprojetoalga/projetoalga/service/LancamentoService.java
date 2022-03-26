@@ -1,6 +1,6 @@
 package br.com.meuprojetoalga.projetoalga.service;
 
-import br.com.meuprojetoalga.projetoalga.model.Lancamento;
+import br.com.meuprojetoalga.projetoalga.entidades.Lancamento;
 import br.com.meuprojetoalga.projetoalga.repository.CategoriaRepository;
 import br.com.meuprojetoalga.projetoalga.repository.LancamentoRepository;
 import br.com.meuprojetoalga.projetoalga.repository.PessoaRepository;

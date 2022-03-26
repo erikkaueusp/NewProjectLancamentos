@@ -1,6 +1,6 @@
 package br.com.meuprojetoalga.projetoalga.controller;
 
-import br.com.meuprojetoalga.projetoalga.model.Categoria;
+import br.com.meuprojetoalga.projetoalga.entidades.Categoria;
 import br.com.meuprojetoalga.projetoalga.repository.CategoriaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

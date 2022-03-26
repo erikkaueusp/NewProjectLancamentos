@@ -1,6 +1,6 @@
 package br.com.meuprojetoalga.projetoalga.service;
 
-import br.com.meuprojetoalga.projetoalga.model.Pessoa;
+import br.com.meuprojetoalga.projetoalga.entidades.Pessoa;
 import br.com.meuprojetoalga.projetoalga.repository.PessoaRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;

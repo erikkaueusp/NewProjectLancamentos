@@ -1,6 +1,6 @@
-package br.com.meuprojetoalga.projetoalga.model;
+package br.com.meuprojetoalga.projetoalga.entidades;
 
-import br.com.meuprojetoalga.projetoalga.model.enums.TipoLancamento;
+import br.com.meuprojetoalga.projetoalga.entidades.enums.TipoLancamento;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -36,11 +36,11 @@ public class Lancamento {
     private TipoLancamento tipoLancamento;
 
     @NotNull
-    @ManyToOne(fetch =FetchType.LAZY)
+    @ManyToOne
     private Categoria categoria;
 
     @NotNull
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne
     private Pessoa pessoa;
 
 
