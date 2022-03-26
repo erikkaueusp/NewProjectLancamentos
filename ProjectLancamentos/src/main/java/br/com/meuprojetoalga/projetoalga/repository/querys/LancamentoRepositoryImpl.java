@@ -1,6 +1,6 @@
 package br.com.meuprojetoalga.projetoalga.repository.querys;
 
-import br.com.meuprojetoalga.projetoalga.model.Lancamento;
+import br.com.meuprojetoalga.projetoalga.entidades.Lancamento;
 import br.com.meuprojetoalga.projetoalga.repository.filters.LancamentoFilter;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;

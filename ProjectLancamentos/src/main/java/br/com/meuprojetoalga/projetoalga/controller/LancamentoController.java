@@ -1,7 +1,7 @@
 package br.com.meuprojetoalga.projetoalga.controller;
 
 import br.com.meuprojetoalga.projetoalga.event.RecursoCriadoEvent;
-import br.com.meuprojetoalga.projetoalga.model.Lancamento;
+import br.com.meuprojetoalga.projetoalga.entidades.Lancamento;
 import br.com.meuprojetoalga.projetoalga.repository.CategoriaRepository;
 import br.com.meuprojetoalga.projetoalga.repository.LancamentoRepository;
 import br.com.meuprojetoalga.projetoalga.repository.filters.LancamentoFilter;
@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
-import java.util.List;
 
 @RestController
 @RequestMapping("/lancamentos")

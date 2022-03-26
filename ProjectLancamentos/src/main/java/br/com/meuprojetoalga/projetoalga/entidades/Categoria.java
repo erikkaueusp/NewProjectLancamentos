@@ -1,4 +1,4 @@
-package br.com.meuprojetoalga.projetoalga.model;
+package br.com.meuprojetoalga.projetoalga.entidades;
 
 import lombok.Data;
 

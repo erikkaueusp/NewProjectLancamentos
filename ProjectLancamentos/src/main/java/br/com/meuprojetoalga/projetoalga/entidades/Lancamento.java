@@ -1,6 +1,6 @@
-package br.com.meuprojetoalga.projetoalga.model;
+package br.com.meuprojetoalga.projetoalga.entidades;
 
-import br.com.meuprojetoalga.projetoalga.model.enums.TipoLancamento;
+import br.com.meuprojetoalga.projetoalga.entidades.enums.TipoLancamento;
 import lombok.Data;
 
 import javax.persistence.*;

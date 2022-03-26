@@ -8,15 +8,15 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.config.http.SessionCreationPolicy;
 
 @Configuration
-@EnableWebSecurity
+@EnableWebSecurity // O enable já vem com o a anotação Configuration que permite o modulo do spring reconhecer
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        auth.inMemoryAuthentication()
-                .withUser("admin").password("{noop}admin").roles("ADMIN");
+        auth.inMemoryAuthentication() // autenticação em memória
+                .withUser("admin").password("{noop}admin").roles("ADMIN"); // Note que utilizamos {noop} antes da senha para indicar que não será criptografada.
 
     }
 
@@ -28,7 +28,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .httpBasic().and()
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS).and()
-                .csrf().disable();
+                .csrf().disable(); // caso rolasse um javascript injection
     }
 
 }
